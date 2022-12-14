@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "./lib/credit_card_system/cli"
+
+cli = CreditCardSystem::Cli.new
+cli.parse
+cli.print_result
